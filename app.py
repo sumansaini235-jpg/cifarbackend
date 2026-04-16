@@ -17,8 +17,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
 # -------------------------------
 # 1. Define Model (same as training)
