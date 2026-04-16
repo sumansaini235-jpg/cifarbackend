@@ -90,8 +90,6 @@ def preprocess_image(image: Image.Image):
 # -------------------------------
 # 4. FastAPI App
 # -------------------------------
-app = FastAPI()
-
 @app.get("/")
 def home():
     return {"message": "CIFAR-10 CNN API is running"}
